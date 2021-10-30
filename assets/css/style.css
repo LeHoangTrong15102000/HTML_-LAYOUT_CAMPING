@@ -156,7 +156,7 @@ li {
   background-color: transparent;
   border-radius: 2rem;
   color: #e76f51;
-  border: 2px solid #e76f51;
+  border: 1px solid #e76f51;
   padding: 1rem 5rem;
 }
 .activity .activity-view h1:hover {
