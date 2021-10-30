@@ -121,6 +121,7 @@ li {
   opacity: 0.5;
   background-color: #e76f51;
   color: #fff;
+  transition: all 0.2s ease;
 }
 .activity .activity-content h1 {
   font-size: 1.3rem;
@@ -162,6 +163,7 @@ li {
   background-color: #e76f51;
   cursor: pointer;
   color: #fff;
+  transition: all 0.2s ease;
 }
 .activity .clear {
   clear: both;
