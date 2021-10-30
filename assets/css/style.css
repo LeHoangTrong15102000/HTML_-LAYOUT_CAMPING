@@ -208,6 +208,12 @@ li {
   font-size: 1.5rem;
   padding-top: 1rem;
 }
+.contact .contact-info .contact-us i {
+  font-size: 2rem;
+  color: #e76f51;
+  margin-top: 1rem;
+  margin-left: 0.8rem;
+}
 
 .clear {
   clear: both;
