@@ -197,9 +197,11 @@ li {
   font-size: 1.5rem;
 }
 .contact .contact-info .contact-app img {
-  opacity: 1;
   /*margin là khoảng cách giữa 2 thẻ h1 và img*/
   margin-top: 1rem;
+}
+.contact .contact-info .contact-app img:hover {
+  cursor: pointer;
 }
 .contact .contact-info .contact-us {
   margin-top: 2rem;
@@ -213,6 +215,10 @@ li {
   color: #e76f51;
   margin-top: 1rem;
   margin-left: 0.8rem;
+}
+.contact .contact-info .contact-us i:hover {
+  cursor: pointer;
+  opacity: 0.6;
 }
 
 .clear {

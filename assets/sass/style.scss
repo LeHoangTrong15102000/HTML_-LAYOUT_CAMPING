@@ -255,9 +255,13 @@ li {
       }
 
       & img {
-        opacity: 1;
+        // opacity: 1;
         /*margin là khoảng cách giữa 2 thẻ h1 và img*/
         margin-top: 1rem;
+
+        &:hover {
+          cursor: pointer;
+        }
       }
     }
 
@@ -274,6 +278,11 @@ li {
         color: $btn-color;
         margin-top: 1rem;
         margin-left: 0.8rem;
+
+        &:hover {
+          cursor: pointer;
+          opacity: 0.6;
+        }
       }
     }
   }
