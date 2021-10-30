@@ -1,0 +1,170 @@
+@charset "UTF-8";
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-size: 1.6rem;
+  font-family: "Poppins", sans-serif;
+  font-weight: normal;
+  background-color: #faf4f1;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*Bỏ đấu chấm của thẻ li*/
+li {
+  list-style-type: none;
+}
+
+.header {
+  background-color: #f8e1db;
+  width: max-width;
+  height: 10rem;
+  padding-left: 5rem;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+  /*Nên viết các class nối nhau ít lại*/
+}
+.header img {
+  margin-bottom: 1rem;
+}
+.header .navbar-text {
+  color: #000000;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+.header .navbar-text:hover {
+  color: #ccc;
+}
+
+.carousel {
+  background-image: url(../img/BG.png);
+  height: 60rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+  border-radius: 0 0 10rem 10rem;
+  /*đi theo chiều kim đồng hồ*/
+}
+
+.service {
+  padding: 0 0.3rem;
+  margin-top: -20rem;
+}
+.service .service-item {
+  float: left;
+  width: 25%;
+  /*Tính theo chứa nó là thẻ cha của nó*/
+  box-shadow: 0px 1px 20px rgba(0, 0, 0, 0.2);
+  padding: 0 2rem;
+}
+.service .service-content {
+  background-color: #fff;
+  border-radius: 2rem;
+  /*Phải viết vào content vì nó chưa background-color mới bo gốc được*/
+  text-align: center;
+  padding: 2rem;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+.service .service-content img {
+  height: 7rem;
+}
+.service .clear {
+  clear: both;
+}
+
+.activity .activity-title {
+  text-align: center;
+  margin-top: 8rem;
+  font-weight: normal;
+  color: #9e9999;
+}
+.activity .activity-item {
+  float: left;
+  width: 25%;
+  padding: 1.2rem 2rem;
+}
+.activity .activity-content {
+  background-color: #fff;
+  border-radius: 2rem;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 300;
+  /*Padding so với lề của activity-content*/
+  padding: 2.5rem;
+  line-height: 2rem;
+}
+.activity .activity-content img {
+  width: 25rem;
+  height: 15rem;
+  border-radius: 2rem;
+}
+.activity .activity-content .activity-btn {
+  margin-top: 2rem;
+  padding: 1rem 4rem;
+  border-radius: 2rem;
+  opacity: 0.8;
+  border: 2px solid #ccc;
+}
+.activity .activity-content .activity-btn:hover {
+  cursor: pointer;
+  opacity: 0.5;
+  background-color: #e76f51;
+  color: #fff;
+}
+.activity .activity-content h1 {
+  font-size: 1.3rem;
+}
+.activity .activity-content p {
+  opacity: 0.7;
+}
+.activity .activity-content .activity-heading {
+  position: relative;
+}
+.activity .activity-content .activity-heading .activity__heart {
+  position: absolute;
+  top: 2rem;
+  right: 2rem;
+  color: #e76f51;
+  width: 4.2rem;
+  height: 4.2rem;
+  background-color: rgba(255, 255, 255, 0.7);
+  /*Cho cái line-height: để nó căn giữa quả tim*/
+  line-height: 4.2rem;
+  border-radius: 1.5rem;
+  z-index: 10;
+}
+.activity .activity-view {
+  /*Nên dùng text-align: center cho gọn*/
+  text-align: center;
+}
+.activity .activity-view h1 {
+  display: inline-block;
+  font-size: 1.5rem;
+  font-weight: 200;
+  background-color: transparent;
+  border-radius: 2rem;
+  color: #e76f51;
+  border: 2px solid #e76f51;
+  padding: 1rem 5rem;
+}
+.activity .activity-view h1:hover {
+  background-color: #e76f51;
+  cursor: pointer;
+  color: #fff;
+}
+.activity .clear {
+  clear: both;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,53 @@
+sao khi chia bố cục rồi thì chúng ta sẽ làm từng phần từ header xuống
+
+************************************************************************************************
+Section Header
+
+margin là khoảng cách giữa các thẻ
+
+padding là khoảng cách từ đường viền của thẻ cho tới nội dung bên trong của nó
+
+************************************************************************************************
+Section Carousel
+
+chỉ cần dủng thẻ img để hiển thị hình lên, có thể dùng thuộc tính background-img: để gắn hình nền lên cho nó -> phải set chiều cao cho background-image
+
+
+Chiều cao của một thẻ HTML bằng với nội dung mà nó chứa nên phải set chiều cao cho nó
+
+background-size: cover; là nó điều chỉnh phù hợp với kích thước của màn hình
+
+
+background-position: x y; mặc đinh tính từ trên xuống và trái qua, Nếu muốn trung hòa background-position thì sử dụng center-center
+
+Do nó chi border 2 gốc dưới của trình duyệt nên không thể dùng border-radius được -> phải dùng border-y-x-border , vd như border-bottom-left-radius
+
+************************************************************************************************
+Section Service
+
+Dùng div chia giao diện cho danh sách (cần một thẻ div bọc hết các danh sách lại)
+
+
+không bao giờ đặt block trong inline
+
+display: chỉ đơn gian sử dụng cho một cái text đơn giản thì được ; Còn những thẻ trong thẻ có nhiều inline , block khác thì ko dùng display được
+
+float:left là các item lên nằm chung một hàng và nằm từ trái sang phải , và phải  set kích thước cho nó
+
+
+service-item sẽ chiểm 100% kích thước của service-container
+
+Mình cần chỉnh gì cho item thì phải chỉnh trong content của nó
+
+box-shadow: (đổ bóng(x)) y độ nhòe(blur) màu sắc(color)
+
+x dương: bóng đổ từ trai sang phải , x âm đổ từ phải sang trái
+
+y dương: bóng đổ từ trên xuống dưới , y âm đổ từ dưới lên trên
+
+Chiều cao các item đang bị lệch với nhau
+
+Muốn đẩy các item lên trên một chút xíu thì sử dụng padding: ; để ở item là con của container
+-> Khoảng cách từ đường viền Item đến content của item, Do có sử dung box-sizing: nên các item nó được xếp trên một hàng với kích thước bằng nhau
+
+box-sizing: border-box; nó sẽ ép kích thước bằng kích thước chúng ta đưa ra
