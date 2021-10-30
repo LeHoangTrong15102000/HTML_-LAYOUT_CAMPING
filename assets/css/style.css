@@ -111,7 +111,7 @@ li {
 }
 .activity .activity-content .activity-btn {
   margin-top: 2rem;
-  padding: 1rem 4rem;
+  padding: 1rem 5rem;
   border-radius: 2rem;
   opacity: 0.8;
   border: 2px solid #ccc;
@@ -147,7 +147,8 @@ li {
 }
 .activity .activity-view {
   /*Nên dùng text-align: center cho gọn*/
-  text-align: center;
+  padding-left: 61.5rem;
+  /*Cũng có thể dùng text-align: center;*/
 }
 .activity .activity-view h1 {
   display: inline-block;
@@ -157,7 +158,7 @@ li {
   border-radius: 2rem;
   color: #e76f51;
   border: 1px solid #e76f51;
-  padding: 1rem 5rem;
+  padding: 1rem 5.5rem;
 }
 .activity .activity-view h1:hover {
   background-color: #e76f51;

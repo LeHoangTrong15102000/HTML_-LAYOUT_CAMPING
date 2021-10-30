@@ -153,7 +153,7 @@ li {
 
     & .activity-btn {
       margin-top: 2rem;
-      padding: 1rem 4rem;
+      padding: 1rem 5rem;
       border-radius: 2rem;
       opacity: 0.8;
       border: 2px solid #ccc;
@@ -198,7 +198,8 @@ li {
 
   & .activity-view {
     /*Nên dùng text-align: center cho gọn*/
-    text-align: center;
+    // text-align: center;
+    padding-left: 61.5rem; /*Cũng có thể dùng text-align: center;*/
     & h1 {
       display: inline-block;
       font-size: 1.5rem;
@@ -207,7 +208,7 @@ li {
       border-radius: 2rem;
       color: $btn-color;
       border: 1px solid $btn-color;
-      padding: 1rem 5rem;
+      padding: 1rem 5.5rem;
 
       &:hover {
         background-color: $btn-color;
