@@ -147,8 +147,7 @@ li {
 }
 .activity .activity-view {
   /*Nên dùng text-align: center cho gọn*/
-  padding-left: 61.5rem;
-  /*Cũng có thể dùng text-align: center;*/
+  text-align: center;
 }
 .activity .activity-view h1 {
   display: inline-block;
@@ -159,6 +158,7 @@ li {
   color: #e76f51;
   border: 1px solid #e76f51;
   padding: 1rem 5.5rem;
+  margin-bottom: 2rem;
 }
 .activity .activity-view h1:hover {
   background-color: #e76f51;
@@ -166,7 +166,50 @@ li {
   color: #fff;
   transition: all 0.2s ease;
 }
-.activity .clear {
+
+.contact {
+  padding: 2rem 5rem;
+  background-color: #f8e1db;
+  height: 40rem;
+}
+.contact .contact-img {
+  float: left;
+  width: 50%;
+}
+.contact .contact-info {
+  padding-top: 5rem;
+  /*Do ban đầu thẻ cha contact-info chiếm 50% rồi*/
+}
+.contact .contact-info h1 {
+  font-size: 2rem;
+  opacity: 0.4;
+}
+.contact .contact-info p {
+  font-size: 1.3rem;
+  opacity: 0.4;
+}
+.contact .contact-info .contact-app {
+  float: left;
+  width: 25%;
+  margin-top: 2rem;
+}
+.contact .contact-info .contact-app h1 {
+  font-size: 1.5rem;
+}
+.contact .contact-info .contact-app img {
+  opacity: 1;
+  /*margin là khoảng cách giữa 2 thẻ h1 và img*/
+  margin-top: 1rem;
+}
+.contact .contact-info .contact-us {
+  margin-top: 2rem;
+}
+.contact .contact-info .contact-us h1 {
+  font-size: 1.5rem;
+  padding-top: 1rem;
+}
+
+.clear {
   clear: both;
 }
 
