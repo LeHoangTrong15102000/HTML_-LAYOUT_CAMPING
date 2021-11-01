@@ -188,12 +188,13 @@ li {
         right: 2rem;
         color: $btn-color;
         @include size(4.2rem);
-        background-color: rgba(255, 255, 255, 0.7);
+        background-color: rgba(255, 255, 255, 0.5);
         /*Cho cái line-height: để nó căn giữa quả tim*/
         line-height: 4.2rem;
         border-radius: 1.5rem;
+        // Có nghĩa là trái tim đè lên image
         z-index: 10;
-
+        // Trong trường hợp muốn làm mờ heart thì phải dùng rgba ko nên dùng opacity sẽ mất hình luôn
         // &:hover {
         // }
       }

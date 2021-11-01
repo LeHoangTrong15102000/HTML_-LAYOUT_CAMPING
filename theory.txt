@@ -51,3 +51,15 @@ Muốn đẩy các item lên trên một chút xíu thì sử dụng padding: ; 
 -> Khoảng cách từ đường viền Item đến content của item, Do có sử dung box-sizing: nên các item nó được xếp trên một hàng với kích thước bằng nhau
 
 box-sizing: border-box; nó sẽ ép kích thước bằng kích thước chúng ta đưa ra
+
+position:sticky khi nào lăn trúng, va vào nó thì nó sẽ cuốn theo xuống
+
+khi dùng font-awesome thì nó đã ép kiểu thz thẻ i thành inline-block
+
+Cách làm hình tròn trong CSS là width=height và border-radius là 50% kích thước 
+
+line-height: chỉ có tác dụng với một dòng text đơn giản
+
+Không thể dùng padding cho heart 
+
+z-index: phải dùng chung với position thì mới có tác dụng
