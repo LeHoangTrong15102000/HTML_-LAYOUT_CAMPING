@@ -262,6 +262,15 @@ li {
 .footer .footer-copyright p {
   font-size: 1.5rem;
 }
+.footer .footer-copyright .footer-title {
+  font-size: 2rem;
+  font-weight: bold;
+  background-image: linear-gradient(to right bottom, #00aefd, #ffa400);
+  display: inline-block;
+  color: transparent;
+  -webkit-background-clip: text;
+  background-clip: text;
+}
 
 .clear {
   clear: both;
