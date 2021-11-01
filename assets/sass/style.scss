@@ -24,6 +24,10 @@ html {
   font-size: 62.5%;
 }
 
+.clear {
+  clear: both;
+}
+
 a {
   text-decoration: none;
 }
@@ -82,7 +86,7 @@ li {
 
 .service {
   padding: 0 0.3rem;
-  margin-top: -20rem;
+  margin-top: -15rem;
 
   //   & .service-container {
   //     transform: translateY(-100%);
@@ -131,7 +135,7 @@ li {
   }
 
   & .activity-content {
-    background-color: #fff;
+    background-color: #ccc;
     border-radius: 2rem;
     text-align: center;
     font-size: 1.4rem;
@@ -345,8 +349,4 @@ li {
       background-clip: text;
     }
   }
-}
-
-.clear {
-  clear: both;
 }

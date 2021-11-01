@@ -16,6 +16,10 @@ html {
   font-size: 62.5%;
 }
 
+.clear {
+  clear: both;
+}
+
 a {
   text-decoration: none;
 }
@@ -58,7 +62,7 @@ li {
 
 .service {
   padding: 0 0.3rem;
-  margin-top: -20rem;
+  margin-top: -15rem;
 }
 .service .service-item {
   float: left;
@@ -95,7 +99,7 @@ li {
   padding: 1.2rem 2rem;
 }
 .activity .activity-content {
-  background-color: #fff;
+  background-color: #ccc;
   border-radius: 2rem;
   text-align: center;
   font-size: 1.4rem;
@@ -270,10 +274,6 @@ li {
   color: transparent;
   -webkit-background-clip: text;
   background-clip: text;
-}
-
-.clear {
-  clear: both;
 }
 
 /*# sourceMappingURL=style.css.map */
