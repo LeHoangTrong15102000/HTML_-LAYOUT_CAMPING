@@ -72,7 +72,18 @@ li {
 }
 
 .carousel {
-  background-image: url(../img/BG.png);
+  // background-image: url(../img/BG.png);
+  // background-color: rgba(29, 27, 27, 0.7);
+  // z-index: 10;
+
+  // Dùng linear cho nó nhẹ
+  background-image: linear-gradient(
+      rgba(0, 0, 0, 0.3) 100%,
+      rgba(0, 0, 0, 0.3) 100%
+    ),
+    url(../img/BG.png);
+  // background: url(../img/BG.png), rgba(0, 0, 0, 0.7);
+
   height: 60rem;
   //   @include size(max-width, max-height);
   background-repeat: no-repeat;
@@ -82,6 +93,9 @@ li {
   //   border-bottom-left-radius: 10rem;
   //   border-bottom-right-radius: 10rem;
   // position: relative;
+  // background-color: rgba(0, 0, 0, 0.2);
+  // -webkit-background-clip: text;
+  // background-clip: text;
 }
 
 .service {
