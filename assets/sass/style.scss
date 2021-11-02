@@ -231,10 +231,18 @@ li {
   background-color: $header-color;
   border-radius: 2rem;
   height: 40rem;
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(231, 111, 81, 0.5),
+    rgba(255, 255, 255, 0.3)
+  );
 
   & .contact-img {
     float: left;
     width: 50%;
+    background-image: url(../assets/img/homeicon.png);
+    background-size: cover;
+    background-position: center;
   }
 
   & .contact-info {
